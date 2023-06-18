@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogscribe</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!------------------------ / Navbar ---------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <h2 class="navbar-brand" href="#">Blogscribe</h2>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--------------------- Heading -------------------------------->
+    <div class="heading">
+      <div class="text">
+        <h3>Welcome to Blogscribe</h3>
+        <p>
+          A platform for sharing insights, experiences, and expertise through
+          written content on various topics.
+        </p>
+      </div>
+      <div class="image">
+        <img src="pic.jpg" alt="" />
+      </div>
+    </div>
+
+    <!---------------------------------- NEWS FEED ----------------------------->
+
+    <div class="category">
+      <h1>OUR <span style="color: #f5910f">BLOGS </span></h1>
+      <hr />
+      <div class="cards">
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------- UPDATE ON UPCOMING EVENT ---------------------->
+
+    <div class="category">
+      <h1>OUR <span style="color: #f5910f">BLOGS </span></h1>
+      <hr />
+      <div class="cards">
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------- JOBS ----------------------------->
+
+    <div class="category">
+      <h1>OUR <span style="color: #f5910f">BLOGS </span></h1>
+      <hr />
+      <div class="cards">
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+        <div class="cat">
+          <img src="pic.jpg" alt="" srcset="" />
+          <h3>Hello World</h3>
+          <p class="catp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minima
+            cum illum, quas consequuntur commodi error repudiandae corporis
+            aliquam quis?
+          </p>
+          <a href="/arts/<%= cat.title %>" class="button"> Read More -> </a>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------- FOOTER ------------------------------->
+    <div class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#"> About </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#"> Pricing </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#"> Terms of Use </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#"> Privacy Policy </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#"> Careers </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#"> Blog </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#"> Contact Us </a>
+        </li>
+      </ul>
+      <img id="ft_logo" src="/img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a class="footer__link twitter-link" target="_blank" href="#">
+          Blogscribe
+        </a>
+        .
+      </p>
+      <p class="footer_p">Made by : <span> Shreyas </span></p>
+    </div>
+  </body>
+</html>
