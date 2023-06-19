@@ -92,10 +92,18 @@
   font-family: "Roboto", sans-serif;
 }
 
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.swiper-slider .box {
+  width: 0;
+}
+
 .cat {
   position: relative;
-  margin: 0px 100px 30px 100px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  margin: 0px 50px 30px 50px;
   border-radius: 20px;
   width: 20%;
   height: 450px;
@@ -135,6 +143,7 @@
 }
 
 .catp {
+  width: 60%;
   inset: auto auto 80px 30px;
 }
 
