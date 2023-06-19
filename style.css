@@ -25,6 +25,12 @@
 
 .nav-item {
   margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 22px;
 }
 
 .heading {
